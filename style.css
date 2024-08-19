@@ -1,0 +1,68 @@
+/* Estilos básicos para a página */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 300px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    border-collapse: collapse;
+    width: 100%;
+    display: table;
+}
+
+li {
+    display: table-row;
+}
+
+li:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+li:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+li span {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.label {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border-right: none;
+}
+
+.number {
+    font-size: 1.5em;
+    color: #007BFF;
+    border-left: none;
+}
